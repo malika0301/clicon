@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
-import FilterPage from './pages/filterPage';
+import FilterPage from "./pages/FilterPage"
 const HomePage = React.lazy(() => import("./pages/HomePage"));
 const CartPage = React.lazy(() => import("./pages/CartPage"));
 const FavoritePage = React.lazy(() => import("./pages/FavoritePage"));
