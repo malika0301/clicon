@@ -1,5 +1,7 @@
 const languages = {
     uz: {
+
+        title: "Clicon online magaziniga hush kelibsiz.",
         home: "uy",
         home_title: "Biz",
         footer_title: "Clicon",
@@ -13,11 +15,18 @@ const languages = {
         footer_title8: "Buyurtmani topish",
         footer_title9: "Aloqa",
         footer_title10: "Moskva, Yosh Leninlar k. 99uy",
-
         korzina: "Savat",
-        korzina_b:"Savat bo'sh"
+        korzina_b: "Savat bo'sh",
+        menu_all: "Barcha kategoriyalar",
+        menu_track: "Buyurtmani kuzatish",
+        menu_compare: "Taqqoslash",
+        menu_support: "Mijozlarni qo‘llab-quvvatlash",
+        menu_help: "Yordam kerakmi?",
+        lang:"Qidiruv..."
+
     },
     ru: {
+        title: "Clicon — современный интернет- магазин электроники.",
         home: "Главный",
         home_title: "Мы",
         footer_title: "Кликон",
@@ -31,10 +40,17 @@ const languages = {
         footer_title8: "Отследить заказ",
         footer_title9: "Контакты",
         footer_title10: "Москва, ул. Юных Ленинцев, д.99",
-        korzina:"Корзина",
-        korzina_b:"Корзина пуста"
+        korzina: "Корзина",
+        korzina_b: "Корзина пуста",
+        menu_all: "Все категории",
+        menu_track: "Отследить заказ",
+        menu_compare: "Сравнение",
+        menu_support: "Поддержка клиентов",
+        menu_help: "Нужна помощь?",
+        lang: "Поиск..."
     },
     eng: {
+        title: "Welcome to Clicon online eCommerce store.",
         home: "homes",
         home_title: "We",
         footer_title: "Clicon",
@@ -48,8 +64,14 @@ const languages = {
         footer_title8: "Track your order",
         footer_title9: "Contacts",
         footer_title10: "Moscow, st. young Leniniv, h.99",
-        korzina:"Cart",
-        korzina_b:"The cart is empty"
+        korzina: "Cart",
+        korzina_b: "The cart is empty",
+        menu_all: "All Categories",
+        menu_track: "Track Order",
+        menu_compare: "Compare",
+        menu_support: "Customer Support",
+        menu_help: "Need Help?",
+        lang: "Search for anything..."
     }
 }
 

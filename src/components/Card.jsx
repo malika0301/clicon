@@ -13,7 +13,7 @@ const Card = ({ el }) => {
   const { like, addToLike , removeToLike } = useContext(LikeContextCard);
 
   return (
-    <div className="max-w-[400px] group w-full p-5 rounded-2xl bg-white transition duration-1000">
+    <div className="max-w-[400px] border border-gray-300 group w-full p-5 rounded-2xl bg-blue-50 transition duration-1000">
       <div className="relative w-full h-[230px] ">
         <img
           className="object-contain w-full h-full "

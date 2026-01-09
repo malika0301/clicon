@@ -10,7 +10,7 @@ const SinglePage = () => {
   const singleProduct = data?.data ;
   return (
     <section>
-      <div className="container  mx-auto px-5">
+      <div className="container  mx-auto px-6">
         <div className="grid grid-cols-2 gap-10">
           <div>
             <SwiperImages images={singleProduct?.images} />

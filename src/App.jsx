@@ -11,17 +11,16 @@ const SinglePage = React.lazy(() => import("./pages/SinglePage"));
 const App = () => {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route element={<Layout/>}>
-      <Route path='/' element={<HomePage/>} />
+      <Routes>
+        <Route element={<Layout />}>
           <Route path='/' element={<HomePage />} />
           <Route path='cart' element={<CartPage />} />
-          <Route path='cart/:id' element={<SinglePage/>} />
+          <Route path='cart/:id' element={<SinglePage />} />
           <Route path='like' element={<FavoritePage />} />
           <Route path='register' element={<RegisterPage />} />
           <Route path='filter' element={<FilterPage />} />
-      </Route>
-    </Routes>
+        </Route>
+      </Routes>
     </BrowserRouter>
   )
 }
